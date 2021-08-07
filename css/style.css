@@ -111,17 +111,16 @@ div img {
 /*My UX Skills*/
 .flexContainer {
     display: flex;
-    background-color: #949189;
-    border:#373738 2px;
     color: white;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     margin: 100px;
+    justify-content: space-between;
 }
 
-.flexContainer div {
-    width: 50%;
-    padding: 10px;
+.flexContainer.card {
+    flex-direction: column;
+    text-align: center;
 }
 
 .mySkills img {
