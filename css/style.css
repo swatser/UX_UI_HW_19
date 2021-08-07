@@ -95,15 +95,16 @@ div img {
     border: #949189 10px;
 }
 
-.homecardholder.card {
+.homecardholder .card {
     display: flex;
     border: #949494 2px;
     max-width: 800px;
     flex-direction: row;
+    align-items: center;
 }
 
-.card img {
-    width: 600px;
+.homecardholder .card img {
+    width: 800px;
     height: auto;
 }
 
@@ -118,10 +119,11 @@ div img {
     margin: 100px;
 }
 
-.flexContainer.card {
+.flexContainer .card {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: space-evenly;
 }
 
 .mySkills img {
