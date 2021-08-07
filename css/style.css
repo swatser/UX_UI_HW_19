@@ -54,7 +54,7 @@
     color: white;
 }
 
-ul {
+.hero ul {
     width: 50%;
     margin-left: auto;
 }
@@ -95,7 +95,7 @@ div img {
     border: #949189 10px;
 }
 
-.card {
+.homecardholder.card {
     display: flex;
     border: #949494 2px;
     max-width: 800px;
@@ -111,14 +111,15 @@ div img {
 /*My UX Skills*/
 .flexContainer {
     display: flex;
-    color: white;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
     margin: 100px;
-    justify-content: space-between;
 }
 
 .flexContainer.card {
+    display: flex;
     flex-direction: column;
     text-align: center;
 }
@@ -169,10 +170,12 @@ button {
 
 
 /*Footer*/
-footer div .ul {
+footer {
     display: flex;
-    flex-direction: row;
-    columns: 4;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 
