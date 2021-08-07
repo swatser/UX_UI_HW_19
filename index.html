@@ -3,6 +3,7 @@
     <link href="../UX_UI_HW_19/css/style.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
+
     <!--Header-->
     <header class="navigation">
         <img src="images/icon.png">
@@ -19,6 +20,7 @@
         
     </header>
 
+
     <!--Hero Image-->
     <section class="hero"; style="background-color:#272725;color:white;">
         <div> <!--Hero Screen-->
@@ -29,44 +31,60 @@
         </div>
     </section>
 
+
     <!--Home Page Cards-->
     <section>
-        <div>
-            <!--<img>About Me Card-->
-            <h2>About Me</h2>
-            <sh2>Learn about my passions and hobbies.</sh2>
-            <button>Learn More</button>
-            <h2>Official Work</h2>
-            <sh2>A collection of interfaces and tools I designed in my professional and college career.</sh2>
-            <button>Learn More</button>
-            <!--img>-->
-            <!--<img> Personal Projects Card-->
-            <h2>Personal Projects</h2>
-            <sh2>A compilation of projects based on my personal interests.</sh2>
-            <button>Learn More</button>
+        <div class="homecardholder">
+            <div class="card flex-row"><img src="../UX_UI_HW_19/images/aboutme.png"/>
+                <div class="card-body">
+                <h4 class="card-title h5 h4-sm">About Me</h4>
+                <p class="card-text">Learn about my passions and hobbies.</p>
+                <button>Learn More</button>
+                </div>
+            </div>
+
+            <div class="card flex-row">
+                <div class="card-body">
+                <h4 class="card-title h5 h4-sm">Official Work</h4>
+                <p class="card-text">A collection of interfaces and tools I designed in my professional and college career.</p>
+                <button>Learn More</button>
+                </div>
+                <img src="../UX_UI_HW_19/images/officialwork.jpg"/>
+            </div>
+
+            <div class="card flex-row"><img src="../UX_UI_HW_19/images/personalprojects.jpg"/>
+                <div class="card-body">
+                <h4 class="card-title h5 h4-sm">Personal Projects</h4>
+                <p class="card-text">A compilation of projects based on my personal interests.</p>
+                <button>Learn More</button>
+                </div>
+            </div>
         </div>
     </section>
+
+
     <!--My UX Skills-->
     <section class="mySkills">
         <h1>My UX Skills</h1>
         <div class="flexContainer">
-            <div>
+            <div class="card">
                 <img src="..//UX_UI_HW_18/images/userresearch.png">
                 <h3>User Research</h3>
                 <p>Advocate for human-centered design by focusing on the users at all stages of the design process.</p>
             </div>
-            <div>
+            <div class="card">
                 <img src="..//UX_UI_HW_18/images/userinterfacedesign.png">
                 <h3>User Interface Design</h3>
                 <p>Intuitive mobile app and web interfaces that focus on bold designs.</p>
             </div>
-            <div>
+            <div class="card">
                 <img src="..//UX_UI_HW_18/images/webdevelopment.png">
                 <h3>Web Development</h3>
                 <p>A strong understanding of front-end development, including knowledge in HTML, CSS, Javascript, and JQuery.</p>
             </div>
         </div>
     </section>
+
 
     <!--My Work-->
     <section class="myWork">
@@ -91,6 +109,7 @@
         </div>
         <h3>View All Projects</h3>
     </section>
+
 
     <!--Footer-->
     <footer>
