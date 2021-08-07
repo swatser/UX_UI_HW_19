@@ -1,5 +1,6 @@
 * {
     background-color: #373738;
+    color: white;
 }
 
 /*Header*/
@@ -51,9 +52,17 @@
     color: white;
 }
 
-.ul {
+ul {
     width: 50%;
     margin-left: auto;
+}
+
+ul > li {
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    &:hover
 }
 
 .logo {
@@ -78,16 +87,14 @@ div img {
 /*Footer*/
 .footer {
     padding: 100px;
+    columns: 
 }
 
-div ul {
+.footer div ul {
     padding: center;
     display: inline-block;
+    columns: 4;
     vertical-align: top;
-}
-
-ul div il {
-    padding: center;
 }
 
 /*My UX Skills*/

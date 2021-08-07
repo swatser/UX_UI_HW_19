@@ -1,9 +1,9 @@
 console.log("good job Swathi");
 
-$( "td" ).hover(
-    function() {
-      $( this ).addClass( "hover" );
-    }, function() {
-      $( this ).removeClass( "hover" );
-    }
-  );
+$( "ul > li" ).hover(function(){
+    $(this).css("font-weight", "bold");
+    $(this).css("font-size", "large");
+}, function(){
+    $(this).css("font-weight","normal");
+    $(this).css("font-size", "medium");
+});
